@@ -19,13 +19,15 @@ img {
 }
 
 nav {
-    background-color: #a40b0b;
+    background-color: #023047f1;
     color: white;
+    position: fixed;
+    width: 100vw;
 }
 
 header {
     background-color: white;
-    color: #023047;
+    color: black;
 }
 
 main {
@@ -82,12 +84,12 @@ nav h1 {
     margin: 0.25rem auto;
     text-decoration: none;
     text-align: center;
-    
-    
+    box-shadow: 0 1px grey;
 }
 
 .linkBtn:hover {
     background-color: #ffd66e;
+    box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
 }
 
 /*main > section {
