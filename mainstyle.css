@@ -5,8 +5,6 @@
 }
 
 html, body {
-    margin: 0 0.25rem;
-    padding: 0;
     font-size: 16px;
     /*Anvender Noto Sans for å dekke mange symboler. Det er også veldig likt fonten på Android*/
     font-family: "Noto Sans", sans-serif;
@@ -14,30 +12,47 @@ html, body {
 }
 
 img {
-    width: min(100%,500px);
+    display: block;
+    width: 100%;
     margin: auto;
     object-fit: contain;
 }
 
 nav {
-    background-color: coral;
+    background-color: #a40b0b;
+    color: white;
 }
 
 header {
-    background-color: salmon;
+    background-color: white;
+    color: #023047;
 }
 
 main {
-    background-color: rgb(107, 224, 166);
+    background-color: #023047;
+    color: white;
+    
 }
 
 footer {
     background-color: olive;
 }
 
+.flex-container {
+    display: flex;
+    justify-content: space-evenly;
+    flex-flow: row wrap;
+}
+
+.flex-container > section {
+    flex: 0 2 32rem;
+    padding: 1rem 0.5rem;
+}
+
+
 ul {
     display: inline-block;
-    width: fit-content;
+    /*width: fit-content;*/
 }
 nav li {
     float: left;
@@ -47,26 +62,39 @@ li {
     list-style: none;
 }
 
-li a {
+li > a {
     text-decoration: none;
+    color: white;
     padding: 0 0.25rem;
 }
 
 nav h1 {
     display: inline-block;
-    width: fit-content;
+    /*width: fit-content;*/
 }
 
 .linkBtn {
-    background-color: blue;
-    color: white;
+    background-color: #ffc431;
+    color: black;
     display: block;
-    width: max-content;
+    width: 12rem;
     padding: 1rem;
-    margin: auto;
+    margin: 0.25rem auto;
+    text-decoration: none;
+    text-align: center;
     
     
 }
+
+.linkBtn:hover {
+    background-color: #ffd66e;
+}
+
+/*main > section {
+    display: inline-block;
+    width: min(100%,32rem);
+    margin: auto;
+}*/
 
 p {
     margin: 0.25rem 0 0 0;
