@@ -19,7 +19,7 @@ img {
 }
 
 nav {
-    background-color: #023047f1;
+    background-color: rgba(2, 48, 71, 0.95);
     color: white;
     position: fixed;
     width: 100vw;
@@ -42,7 +42,7 @@ footer {
 
 .flex-container {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     flex-flow: row wrap;
 }
 
@@ -51,6 +51,19 @@ footer {
     padding: 1rem 0.5rem;
 }
 
+.background-image {
+    background-image: url("pexels-andrea-piacquadio-3799205.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    margin-top: 2rem;
+}
+
+nav > div {
+    padding: 0.125rem 0.25rem;
+}
 
 ul {
     display: inline-block;
@@ -68,6 +81,10 @@ li > a {
     text-decoration: none;
     color: white;
     padding: 0 0.25rem;
+}
+
+li > a:hover {
+    background-color: #219EBC;
 }
 
 nav h1 {
