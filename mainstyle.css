@@ -67,8 +67,11 @@ nav > div {
 
 ul {
     display: inline-block;
+    font-size: 1.125rem;
+    line-height: 2rem;
     /*width: fit-content;*/
 }
+
 nav li {
     float: left;
 }
@@ -89,6 +92,8 @@ li > a:hover {
 
 nav h1 {
     display: inline-block;
+    font-size: 2rem;
+    line-height: 2rem;
     /*width: fit-content;*/
 }
 
