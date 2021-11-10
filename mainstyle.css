@@ -10,13 +10,14 @@ html, body {
     font-family: "Noto Sans", sans-serif;
     background-color: beige;
 }
-
+/*
 img {
     display: block;
     width: 100%;
     margin: auto;
     object-fit: contain;
 }
+*/
 
 nav {
     background-color: rgba(2, 48, 71, 0.95);
@@ -37,7 +38,7 @@ main {
 }
 
 footer {
-    background-color: olive;
+    background-color: white;
 }
 
 .flex-container {
@@ -49,6 +50,15 @@ footer {
 .flex-container > section {
     flex: 0 2 32rem;
     padding: 1rem 0.5rem;
+}
+
+.footer-section {
+    flex: 0 2 300px !important;
+}
+
+.footer-section > div > img {
+    display: inline-block;
+    width: 25%;
 }
 
 .background-image {
@@ -96,6 +106,8 @@ nav h1 {
     line-height: 2rem;
     /*width: fit-content;*/
 }
+
+
 
 .linkBtn {
     background-color: #ffc431;
