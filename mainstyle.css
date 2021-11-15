@@ -10,14 +10,8 @@ html, body {
     font-family: "Noto Sans", sans-serif;
     background-color: beige;
 }
-/*
-img {
-    display: block;
-    width: 100%;
-    margin: auto;
-    object-fit: contain;
-}
-*/
+
+
 
 nav {
     background-color: rgba(2, 48, 71, 0.95);
@@ -41,6 +35,15 @@ footer {
     background-color: white;
 }
 
+#index-banner {
+    background-image: url("pexels-andrea-piacquadio-3799205.jpg");
+}
+
+#interface-banner {
+    background-image: url("earbuds-banner.png");
+    background-position: right;
+}
+
 .flex-container {
     display: flex;
     justify-content: center;
@@ -48,7 +51,7 @@ footer {
 }
 
 .flex-container > section {
-    flex: 0 2 32rem;
+    flex: 0 2 24rem;
     padding: 1rem 0.5rem;
 }
 
@@ -62,13 +65,19 @@ footer {
 }
 
 .background-image {
-    background-image: url("pexels-andrea-piacquadio-3799205.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     height: 50vh;
     width: 100%;
     margin-top: 2rem;
+}
+
+img {
+    display: block;
+    width: 100%;
+    margin: auto;
+    object-fit: contain;
 }
 
 nav > div {
@@ -107,8 +116,6 @@ nav h1 {
     /*width: fit-content;*/
 }
 
-
-
 .linkBtn {
     background-color: #ffc431;
     color: black;
@@ -131,6 +138,15 @@ nav h1 {
     width: min(100%,32rem);
     margin: auto;
 }*/
+
+h2, h3 {
+    font-size: 1.5rem;
+    line-height: 2rem;
+}
+
+h2 {
+    color: #023047;
+}
 
 p {
     margin: 0.25rem 0 0 0;
