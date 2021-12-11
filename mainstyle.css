@@ -55,12 +55,18 @@ footer {
     padding: 1rem 0.5rem;
 }
 
+.double-wide {
+    flex-basis: 48rem !important;
+    text-align: center;
+}
+
 .footer-section {
     flex: 0 2 300px !important;
 }
 
 .footer-section > div > img {
     display: inline-block;
+    /*vertical-align: bottom;*/
     width: 25%;
 }
 
@@ -128,9 +134,25 @@ nav h1 {
     box-shadow: 0 1px grey;
 }
 
+.sourcesBtn {
+    color: white;
+    background-color: grey;
+    margin: 0;
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+
+
 .linkBtn:hover {
     background-color: #ffd66e;
     box-shadow: 0 1rem 2rem rgba(0, 0, 0, 0.5);
+}
+
+.sourcesBtn:hover {
+    background-color: rgb(100, 100, 100);
 }
 
 /*main > section {
