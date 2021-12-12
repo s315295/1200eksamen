@@ -36,12 +36,22 @@ footer {
 }
 
 #index-banner {
-    background-image: url("pexels-andrea-piacquadio-3799205.jpg");
+    background-image: url("pictures/pexels-andrea-piacquadio-3799205.jpg");
 }
 
 #interface-banner {
-    background-image: url("earbuds-banner.png");
+    background-image: url("pictures/earbuds-banner.png");
     background-position: right;
+}
+
+#sdg-banner {
+    background-image: url("pictures/sdg-banner-cropped.png");
+    background-size: contain;
+}
+
+#awareness-banner {
+    background-image: url("pictures/neurodiversity-cropped.png");
+    background-position: top;
 }
 
 .flex-container {
@@ -67,7 +77,6 @@ footer {
 
 .footer-section > div > img {
     display: inline-block;
-    /*vertical-align: bottom;*/
     width: 25%;
 }
 
@@ -95,7 +104,6 @@ ul {
     display: inline-block;
     font-size: 1.125rem;
     line-height: 2rem;
-    /*width: fit-content;*/
 }
 
 nav li {
@@ -120,7 +128,6 @@ nav h1 {
     display: inline-block;
     font-size: 2rem;
     line-height: 3rem;
-    /*width: fit-content;*/
 }
 
 .linkBtn {
@@ -155,12 +162,6 @@ nav h1 {
 .sourcesBtn:hover {
     background-color: rgb(100, 100, 100);
 }
-
-/*main > section {
-    display: inline-block;
-    width: min(100%,32rem);
-    margin: auto;
-}*/
 
 h2, h3 {
     font-size: 1.5rem;
