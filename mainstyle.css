@@ -175,3 +175,12 @@ h2 {
 p {
     margin: 0.25rem 0 0 0;
 }
+
+#sources-header {
+    padding: 5rem 0;
+}
+
+#sources-main {
+    flex: 0 2 48rem;
+    margin: 0 auto;
+}
