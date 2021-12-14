@@ -77,7 +77,10 @@ footer {
 
 .footer-section > div > img {
     display: inline-block;
-    width: 25%;
+    /* For IE11 */
+    width: 33.3%; 
+    /* For newer browsers, ignored by IE11 */
+    width: calc(100% / 3);
 }
 
 .background-image {
