@@ -8,7 +8,7 @@ html, body {
     font-size: 16px;
     /*Anvender Noto Sans for å dekke mange symboler. Det er også veldig likt fonten på Android*/
     font-family: "Noto Sans", sans-serif;
-    background-color: beige;
+    /* background-color: beige; */
 }
 
 
@@ -100,7 +100,7 @@ nav > div {
     padding: 0.125rem 0.25rem;
 }
 
-ul {
+nav ul {
     display: inline-block;
     font-size: 1.125rem;
     line-height: 2rem;
@@ -108,10 +108,11 @@ ul {
 
 nav li {
     float: left;
+    list-style: none;
 }
 
-li {
-    list-style: none;
+main li {
+    margin: 0.5rem 2rem;
 }
 
 li > a {
@@ -173,7 +174,21 @@ h2 {
 }
 
 p {
-    margin: 0.25rem 0 0 0;
+    margin: 0.25rem 0 0 0.25rem;
+}
+
+blockquote {
+    display: block;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    font-style: italic;
+  }
+
+blockquote > a,
+blockquote > a:visited {
+    color: white;
 }
 
 #sources-header {
