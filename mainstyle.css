@@ -148,7 +148,7 @@ nav h1 {
 
 .sourcesBtn {
     color: white;
-    background-color: grey;
+    background-color: #161616;
     margin: 0;
     position: relative;
     top: 50%;
@@ -164,7 +164,7 @@ nav h1 {
 }
 
 .sourcesBtn:hover {
-    background-color: rgb(100, 100, 100);
+    background-color: rgb(44, 44, 44);
 }
 
 h2, h3 {
@@ -199,6 +199,13 @@ blockquote > a:visited {
 }
 
 #sources-main {
-    flex: 0 2 48rem;
+    display: block;
+    max-width: 48rem;
     margin: 0 auto;
+    background-color: white;
+    color: black;
+}
+
+#sources-main > section {
+    margin: 2rem 0.25rem 0.25rem 0.25rem;
 }
