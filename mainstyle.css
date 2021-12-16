@@ -8,7 +8,7 @@ html, body {
     font-size: 16px;
     /*Anvender Noto Sans for å dekke mange symboler. Det er også veldig likt fonten på Android*/
     font-family: "Noto Sans", sans-serif;
-    /* background-color: beige; */
+    background-color: #023047;
 }
 
 
@@ -28,11 +28,20 @@ header {
 main {
     background-color: #023047;
     color: white;
-    
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+.index-main {
+    max-width: 80rem;
 }
 
 footer {
     background-color: white;
+    padding-bottom: 3rem;
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
 }
 
 #index-banner {
@@ -64,6 +73,7 @@ footer {
     flex: 0 2 24rem;
     padding: 1rem 0.5rem;
 }
+
 
 .double-wide {
     flex-basis: 48rem !important;
@@ -158,7 +168,8 @@ li > a:hover {
 .sourcesBtn {
     color: white;
     background-color: #161616;
-    margin: 0 auto;
+    margin: auto;
+    height: 22px;
     /* position: relative; */
     /* top: 50%; */
     /* left: 50%; */
@@ -201,6 +212,11 @@ blockquote {
 blockquote > a,
 blockquote > a:visited {
     color: white;
+}
+
+#sources-body {
+    background-color: white;
+    padding-bottom: 2rem;
 }
 
 #sources-header {
